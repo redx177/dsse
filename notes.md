@@ -1,0 +1,60 @@
+# Vorteile
+- Kennt man die Domäne und die gängigen Aufgabenstellung und Lösungen, so kann die Qualität und die Produktivität der gelieferten Software verbessert werden
+- Nicht alles muss neu erfunden werden
+
+# Aspekte
+- Performance
+    - SLA (e.g. 99.999% Uptime)
+- Accessibility
+- Security
+- Usability
+- Browsers
+    - FF
+    - Chrome
+    - IE
+- Correct Structuring of HTML documents
+- SEO
+- Clinet / Server
+- Programmiersprachen Server
+    - PHP
+    - Java
+    - C#
+    - Ruby
+    - NodeJS
+- Client Sprachen
+    - JS (Frameworks)
+        - Scriptacoulous
+        - AngularJS
+        - TerrificJS
+    - CoffeeScript
+    - Meteor
+    - CSS (Framework)
+        - Less
+        - Sass
+- Databases
+    - MySQL
+    - PostgreSQL
+    - NoSQL
+    - MongoDB
+- PC / Mobile / Tablet
+    - Responsive
+    - Bandwidth problem
+    - Caching
+- W3C Standard(s ???)
+- Testing
+    - Selenium
+    - Unit Testing
+- Restfull / Stateless
+    - Session Management
+    - Sockets
+- Figures
+    - 90% have DOM maniuplations after site has been loaded
+    - 51.1% contain abiguous IDs
+    - 60% not built for accessibility
+- Patterns
+- Distributed Systems
+    - System Bus
+    - CQRS
+- Technologies (????) (There is no getting around it... )
+    - Paxos / Dynamo / MarReduce
+- Auhtentication
