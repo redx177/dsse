@@ -3,58 +3,128 @@
 - Nicht alles muss neu erfunden werden
 
 # Aspekte
-- Performance
-    - SLA (e.g. 99.999% Uptime)
-- Accessibility
-- Security
-- Usability
-- Browsers
-    - FF
-    - Chrome
-    - IE
-- Correct Structuring of HTML documents
-- SEO
-- Clinet / Server
-- Programmiersprachen Server
-    - PHP
-    - Java
-    - C#
-    - Ruby
-    - NodeJS
-- Client Sprachen
-    - JS (Frameworks)
-        - Scriptacoulous
-        - AngularJS
-        - TerrificJS
+- x Performance
+- x Accessibility
+- x Security
+- x Usability
+- x SLA (e.g. 99.999% Uptime)
+    - x Performance
+    - x Bug fixing
+    - x Development
+- x Browsers
+    - x FF
+    - x Chrome
+    - x IE
+- x Correct Structuring of HTML documents
+- x SEO
+- x Clinet / Server
+- x Programmiersprachen Server
+    - x PHP
+    - x Java
+    - x C#
+    - x Ruby
+    - x NodeJS
+- x Client Sprachen
+    - x JS (Frameworks)
+        - x Scriptacoulous
+        - x AngularJS
+        - x TerrificJS
     - CoffeeScript
     - Meteor
     - CSS (Framework)
         - Less
         - Sass
-- Databases
-    - MySQL
-    - PostgreSQL
-    - NoSQL
-    - MongoDB
-- PC / Mobile / Tablet
-    - Responsive
-    - Bandwidth problem
-    - Caching
-- W3C Standard(s ???)
-- Testing
-    - Selenium
-    - Unit Testing
-- Restfull / Stateless
-    - Session Management
-    - Sockets
+- x Databases
+    - x MySQL
+    - x PostgreSQL
+    - x NoSQL
+    - x MongoDB
+- x PC / Mobile / Tablet
+    - x Responsive
+    - x Bandwidth problem
+    - x Caching
+- x W3C Standard(s ???)
+- x Testing
+    - x Selenium
+    - x Unit Testing
+- x Restfull / Stateless
+    - x Session Management
+    - x Sockets
 - Figures
     - 90% have DOM maniuplations after site has been loaded
     - 51.1% contain abiguous IDs
     - 60% not built for accessibility
-- Patterns
-- Distributed Systems
-    - System Bus
-    - CQRS
+- x Patterns
+- x Distributed Systems
+    - x System Bus
+    - x CQRS
 - Technologies (????) (There is no getting around it... )
     - Paxos / Dynamo / MarReduce
-- Auhtentication
+- x Authentication
+
+# Aufbau
+- Allgemeines
+    - Clinet / Server
+    - W3C Standard(s ???)
+    - Interne vs Externe Entwicklung
+- Requirements Engineering
+    - Performance
+    - Accessibility
+    - Security
+    - Usability
+    - Authentication
+    - SEO
+    - Restfull / Stateless
+        - Session Management
+        - Sockets
+    - PC / Mobile / Tablet
+        - Responsive
+        - Bandwidth problem
+        - Caching
+    - Browsers
+        - FF
+        - Chrome
+        - IE
+- Software Design
+    - Patterns
+    - Distributed Systems
+        - System Bus
+        - CQRS
+- Software Construction
+    - Programmiersprachen Server
+        - PHP
+        - Java
+        - C#
+        - Ruby
+        - NodeJS
+    - Client Sprachen
+        - JS (Frameworks)
+            - Scriptacoulous
+            - AngularJS
+            - TerrificJS
+        - CoffeeScript
+        - Meteor
+        - CSS (Framework)
+            - Less
+            - Sass
+    - Databases
+        - MySQL
+        - PostgreSQL
+        - NoSQL
+        - MongoDB
+    - Correct Structuring of HTML documents
+- Software Testing
+    - Unit Testing
+    - Integrationstests
+    - Systemtests (Selenium)
+- Software Maintenance
+    - SLA (e.g. 99.999% Uptime)
+        - Performance
+        - Bug fixing
+        - Development
+- Software Configuration Management
+
+- Software Engineering Management
+- Software Engineering Process
+- Software Engineering Models and Methods
+- Software Quality
