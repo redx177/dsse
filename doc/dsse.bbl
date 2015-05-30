@@ -1,0 +1,80 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{IEEE_Computer_Society_2015-05-30}{online}{}
+  \field{sortinit}{I}
+  \field{title}{index • IEEE Computer Society}
+  \verb{url}
+  \verb http://www.computer.org/web/swebok
+  \endverb
+  \verb{file}
+  \verb :./references/index • IEEE Computer Society.html:html
+  \endverb
+  \field{urlday}{30}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Internet__Wikipedia_2015-05-30}{online}{}
+  \field{sortinit}{I}
+  \field{title}{Internet – Wikipedia}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Internet#Nutzerzahlen
+  \endverb
+  \verb{file}
+  \verb :./references/Internet – Wikipedia.html:html
+  \endverb
+  \field{urlday}{30}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{World_Internet_Users_Statistics2015-05-30}{online}{}
+  \field{sortinit}{W}
+  \field{title}{World Internet Users Statistics and 2014 World Population
+  Stats}
+  \verb{url}
+  \verb http://www.internetworldstats.com/stats.htm
+  \endverb
+  \verb{file}
+  \verb :./references/World Internet Users Statistics and 2014 World Population
+  \verb  Stats.html:html
+  \endverb
+  \field{urlday}{30}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{World_Wide_Web_Consortium_2015-05-30}{online}{}
+  \field{sortinit}{W}
+  \field{title}{World Wide Web Consortium (W3C)}
+  \verb{url}
+  \verb http://www.w3.org/
+  \endverb
+  \verb{file}
+  \verb :./references/World Wide Web Consortium (W3C).html:html
+  \endverb
+  \field{urlday}{30}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
