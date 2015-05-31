@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  31 MAY 2015 23:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  1 JUN 2015 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4477,9 +4477,9 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout3 = `dsse.mw'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 76.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 204.
 
@@ -4494,6 +4494,12 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout3 = `dsse.mw'.
 
  [8] (./dsse.mw)
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
 \openout3 = `dsse.mw'.
 
 \openout3 = `dsse.mw'.
@@ -5177,15 +5183,15 @@ Package logreq Info: Writing requests to 'dsse.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61220 strings out of 493304
- 1262794 string characters out of 6139870
- 1754588 words of memory out of 5000000
- 62744 multiletter control sequences out of 15000+600000
+ 61228 strings out of 493304
+ 1263308 string characters out of 6139870
+ 1754586 words of memory out of 5000000
+ 62750 multiletter control sequences out of 15000+600000
  145252 words of font info for 209 fonts, out of 8000000 for 9000
  963 hyphenation exceptions out of 8191
  65i,12n,101p,10439b,3249s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.
@@ -5195,10 +5201,10 @@ r/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on dsse.pdf (18 pages, 460147 bytes).
+Output written on dsse.pdf (18 pages, 463177 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 359 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
  60188 words of extra memory for PDF output out of 61914 (max. 10000000)
 

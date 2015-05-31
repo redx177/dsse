@@ -16,6 +16,23 @@
   {}
 \endgroup
 
+\entry{Adaptive_vs_Responsive_Web_Design_Which_Is_Right_for_Your_Site_-_Catchpoints_Blog_2015-06-01}{online}{}
+  \field{sortinit}{A}
+  \field{title}{Adaptive vs. Responsive Web Design: Which Is Right for Your
+  Site? - Catchpoint's Blog}
+  \verb{url}
+  \verb http://blog.catchpoint.com/2014/06/02/adaptive-vs-responsive-web-design
+  \verb -right-site/
+  \endverb
+  \verb{file}
+  \verb :./references/Adaptive vs. Responsive Web Design: Which Is Right for Yo
+  \verb ur Site? - Catchpoint's Blog.html:html
+  \endverb
+  \field{urlday}{01}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{IEEE_Computer_Society_2015-05-30}{online}{}
   \field{sortinit}{I}
   \field{title}{index • IEEE Computer Society}
