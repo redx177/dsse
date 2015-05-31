@@ -67,24 +67,36 @@
     - Clinet / Server
     - W3C Standard(s ???)
     - Interne vs Externe Entwicklung
+        - Selber entwickeln oder outsourcen
+        - extern
 - Requirements Engineering
-    - Performance
-    - Accessibility
-    - Security
-    - Usability
-    - Authentication
-    - SEO
-    - Restfull / Stateless
-        - Session Management
-        - Sockets
     - PC / Mobile / Tablet
-        - Responsive
+        - Responsive vs Adaptive
+            - Kleine Auflösung zuerst Designen
+            - Adaptive
+                - Für jede Grösse eine eigene Seite
+                - Für eine Bestehende Webseite
+                - Generell: Für 6 Auflösungen
+                - Client Code einfacher
+            - Responsive
+                - Eine Seite für alle Geräte
+                - Einfacher zu Pflegen
+                - Server Code einfacher
         - Bandwidth problem
         - Caching
     - Browsers
         - FF
         - Chrome
         - IE
+    - Performance
+    - Security
+    - Usability
+    - Accessibility
+    - Authentication
+    - SEO
+    - Restfull / Stateless
+        - Session Management
+        - Sockets
 - Software Design
     - Patterns
     - Distributed Systems

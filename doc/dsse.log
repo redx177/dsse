@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  30 MAY 2015 16:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  31 MAY 2015 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4021,11 +4021,31 @@ text indent by \l@... (toc, 1):  25.18501pt
 number indent by parent (toc, 1):  12.59247pt
 text indent calculated (toc, 1): 19.46661pt
 number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 12.59247pt
 number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
+number indent by \l@... (toc, 2):  41.61002pt
+text indent by \l@... (toc, 2):  35.03995pt
+number indent by parent (toc, 2):  32.05908pt
+text indent calculated (toc, 2): 27.98325pt
+number indent calculated (toc, 2): 32.05908pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -4078,6 +4098,19 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 17
  (./dsse.lof
 Package cleveref Info: loaded `ngerman' language definitions on input line 3.
 
+number indent by \l@... (lof, 1):  16.42499pt
+text indent by \l@... (lof, 1):  25.18501pt
+number indent by parent (lof, 1):  16.42499pt
+text indent calculated (lof, 1): 19.46661pt
+number indent calculated (lof, 1): 16.42499pt
+number indent by \l@... (lof, 1):  16.42499pt
+text indent by \l@... (lof, 1):  25.18501pt
+number indent by parent (lof, 1):  16.42499pt
+text indent calculated (lof, 1): 19.46661pt
+number indent calculated (lof, 1): 16.42499pt
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/9'.
+(microtype)             Ignoring protrusion settings for this character.
 number indent by \l@... (lof, 1):  16.42499pt
 text indent by \l@... (lof, 1):  25.18501pt
 number indent by parent (lof, 1):  16.42499pt
@@ -4188,9 +4221,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 6.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/9'.
-(microtype)             Ignoring protrusion settings for this character.
 
 Underfull \hbox (badness 3049) in paragraph at lines 7--7
 [][][][]\T1/lmr/m/it/9 (+20) World In-ter-net Users Sta-ti-stics and 2014 World
@@ -4285,7 +4315,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-iso-8859-1.def
 File: se-iso-8859-1.def 2011/12/02 v1.10 stringenc: ISO-8859-1
 )
-<images/aufbau-internet.png, id=137, 1129.21875pt x 342.27875pt>
+<images/aufbau-internet.png, id=158, 1129.21875pt x 342.27875pt>
 File: images/aufbau-internet.png Graphic file (type png)
 
 <use images/aufbau-internet.png>
@@ -4312,6 +4342,10 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 37.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 53.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 203.
 
@@ -4344,6 +4378,19 @@ Package babel Info: Redefining ngerman shorthand "~
 
 \openout3 = `dsse.mw'.
 
+Package cleveref Info: loaded `ngerman' language definitions on input line 203.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 203.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 203.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 203.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 203.
+\openout3 = `dsse.mw'.
+
+ [5] (./dsse.mw)
 \openout2 = `content/3-Contribution.aux'.
 
  (./content/3-Contribution.tex
@@ -4352,7 +4399,90 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 26.
+<images/rwd-vs-awd.png, id=195, 724.7075pt x 245.91875pt>
+File: images/rwd-vs-awd.png Graphic file (type png)
+
+<use images/rwd-vs-awd.png>
+Package pdftex.def Info: images/rwd-vs-awd.png used on input line 33.
+(pdftex.def)             Requested size: 384.10965pt x 130.34381pt.
+pdfTeX warning (ext4): destination with the same identifier (name{cite.0:f:1:Re
+sponsive_vs_Adaptive_Design_for_UI_2015-05-31}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.34 ...ive_vs_Adaptive_Design_for_UI_2015-05-31}}
+                                                  
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+\openout3 = `dsse.mw'.
+
+ [6] (./dsse.mw)
+
+
+
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+
+<images/rwd.jpg, id=206, 199.947pt x 146.949pt>
+File: images/rwd.jpg Graphic file (type jpg)
+ <use images/rwd.jpg>
+Package pdftex.def Info: images/rwd.jpg used on input line 42.
+(pdftex.def)             Requested size: 170.71394pt x 125.47003pt.
+pdfTeX warning (ext4): destination with the same identifier (name{cite.0:f:1:Th
+e_Difference_Between_Adaptive_Design_And_Responsive_Desi\ETC.}) has been alread
+y used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 ..._Design_And_Responsive_Design_2015-05-31}}
+                                                  
+Package cleveref Info: loaded `ngerman' language definitions on input line 51.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 51.
+\openout3 = `dsse.mw'.
+
+ [7 <./images/rwd-vs-awd.png> <./images/rwd.jpg>] (./dsse.mw)
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 72.
 )
+Package cleveref Info: loaded `ngerman' language definitions on input line 204.
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 204.
 Package babel Info: Redefining ngerman shorthand "~
@@ -4363,10 +4493,16 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 204.
 \openout3 = `dsse.mw'.
 
- [5] (./dsse.mw)
+ [8] (./dsse.mw)
+\openout3 = `dsse.mw'.
 
+\openout3 = `dsse.mw'.
 
+\openout3 = `dsse.mw'.
 
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
 
 \openout2 = `content/4-Discussion.aux'.
 
@@ -4387,7 +4523,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 205.
 \openout3 = `dsse.mw'.
 
- [6] (./dsse.mw)
+ [9] (./dsse.mw)
 
 
 
@@ -4415,10 +4551,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 206.
 \openout3 = `dsse.mw'.
 
- [7] (./dsse.mw)
+ [10] (./dsse.mw)
 
 
 
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
 
 \openout3 = `dsse.mw'.
 
@@ -4457,7 +4597,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 252.
 \openout3 = `dsse.mw'.
 
-[8] (./dsse.mw)
+[11] (./dsse.mw)
 
 
 
@@ -4507,7 +4647,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 258.
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
 (./dsse.aux (./content/0-Title.aux)
@@ -4577,7 +4717,19 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 39.
 
 \openout3 = `dsse.mw'.
 
+\openout3 = `dsse.mw'.
+
 ) (./content/3-Contribution.aux
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
+\openout3 = `dsse.mw'.
+
 \openout3 = `dsse.mw'.
 
 \openout3 = `dsse.mw'.
@@ -4997,6 +5149,8 @@ content/2-Definitions.tex
 se-iso-8859-1.def    2011/12/02 v1.10 stringenc: ISO-8859-1
 images/aufbau-internet.png
 content/3-Contribution.tex
+images/rwd-vs-awd.png
+images/rwd.jpg
 content/4-Discussion.tex
 content/5-Summary.tex
     dsse.ind
@@ -5023,28 +5177,28 @@ Package logreq Info: Writing requests to 'dsse.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61041 strings out of 493304
- 1258432 string characters out of 6139870
- 1752016 words of memory out of 5000000
- 62620 multiletter control sequences out of 15000+600000
- 136617 words of font info for 193 fonts, out of 8000000 for 9000
+ 61220 strings out of 493304
+ 1262794 string characters out of 6139870
+ 1754588 words of memory out of 5000000
+ 62744 multiletter control sequences out of 15000+600000
+ 145252 words of font info for 209 fonts, out of 8000000 for 9000
  963 hyphenation exceptions out of 8191
- 65i,12n,101p,10439b,1999s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,101p,10439b,3249s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmtt9.pfb>
-Output written on dsse.pdf (15 pages, 389105 bytes).
+pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on dsse.pdf (18 pages, 460147 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 273 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 59122 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 417 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 60188 words of extra memory for PDF output out of 61914 (max. 10000000)
 

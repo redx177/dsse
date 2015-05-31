@@ -44,6 +44,54 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Responsive_vs_Adaptive_Design_for_UI_2015-05-31}{online}{}
+  \field{sortinit}{R}
+  \field{title}{Responsive vs Adaptive Design for UI}
+  \verb{url}
+  \verb http://blog.zymr.com/responsive-vs-adaptive-design-for-ui
+  \endverb
+  \verb{file}
+  \verb :./references/Responsive vs Adaptive Design for UI.html:html
+  \endverb
+  \field{urlday}{31}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Responsive_vs_Adaptive_Design_2015-05-31}{online}{}
+  \field{sortinit}{R}
+  \field{title}{Responsive vs. Adaptive Design: What’s the Best Choice for
+  Designers? - UXPin}
+  \verb{url}
+  \verb http://blog.uxpin.com/6439/responsive-vs-adaptive-design-whats-best-cho
+  \verb ice-designers/
+  \endverb
+  \verb{file}
+  \verb :./references/Responsive vs. Adaptive Design: What’s the Best Choice
+  \verb for Designers? - UXPin.html:html
+  \endverb
+  \field{urlday}{31}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{The_Difference_Between_Adaptive_Design_And_Responsive_Design_2015-05-31}{online}{}
+  \field{sortinit}{T}
+  \field{title}{The Difference Between Adaptive Design And Responsive Design |
+  Search Engine People}
+  \verb{url}
+  \verb http://www.searchenginepeople.com/blog/the-difference-between-adaptive-
+  \verb design-and-responsive-design.html
+  \endverb
+  \verb{file}
+  \verb :./references/The Difference Between Adaptive Design And Responsive Des
+  \verb ign | Search Engine People.html:html
+  \endverb
+  \field{urlday}{31}
+  \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{World_Internet_Users_Statistics2015-05-30}{online}{}
   \field{sortinit}{W}
   \field{title}{World Internet Users Statistics and 2014 World Population

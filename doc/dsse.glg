@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
 Scanning style file ./dsse.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file dsse.glo....done (4 entries accepted, 0 rejected).
-Sorting entries....done (9 comparisons).
-Generating output file dsse.gls....done (7 lines written, 0 warnings).
+Scanning input file dsse.glo....done (8 entries accepted, 0 rejected).
+Sorting entries....done (22 comparisons).
+Generating output file dsse.gls....done (8 lines written, 0 warnings).
 Output written in dsse.gls.
 Transcript written in dsse.glg.
