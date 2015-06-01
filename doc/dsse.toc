@@ -20,8 +20,12 @@
 \contentsline {section}{\numberline {4.1}Endger\IeC {\"a}te}{6}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Responsive- vs Adaptive Web Design}{6}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Bandbreite}{8}{subsection.4.1.2}
-\contentsline {chapter}{\numberline {5}Phishing}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6}Schlussfolgerung}{10}{chapter.6}
-\contentsline {section}{\numberline {6.1}Pers\IeC {\"o}nliches}{10}{section.6.1}
-\contentsline {chapter}{\nonumberline Quellenverzeichnis}{11}{chapter*.12}
+\contentsline {section}{\numberline {4.2}Browsers}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Nicht funktionale Eigenschaften}{9}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Geschwindigkeit}{10}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Sicherheit}{12}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Phishing}{13}{chapter.5}
+\contentsline {chapter}{\numberline {6}Schlussfolgerung}{14}{chapter.6}
+\contentsline {section}{\numberline {6.1}Pers\IeC {\"o}nliches}{14}{section.6.1}
+\contentsline {chapter}{\nonumberline Quellenverzeichnis}{15}{chapter*.15}
 \contentsfinish

@@ -61,6 +61,20 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Response_Time_Limits_Article_by_Jakob_Nielsen_2015-06-01}{online}{}
+  \field{sortinit}{R}
+  \field{title}{Response Time Limits: Article by Jakob Nielsen}
+  \verb{url}
+  \verb http://www.nngroup.com/articles/response-times-3-important-limits/
+  \endverb
+  \verb{file}
+  \verb :./references/Response Time Limits: Article by Jakob Nielsen.html:html
+  \endverb
+  \field{urlday}{01}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{Responsive_vs_Adaptive_Design_for_UI_2015-05-31}{online}{}
   \field{sortinit}{R}
   \field{title}{Responsive vs Adaptive Design for UI}
@@ -106,6 +120,40 @@
   \endverb
   \field{urlday}{31}
   \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{The_Psychology_of_Web_Performance_-_how_slow_response_times_affect_user_psychology_2015-06-01}{online}{}
+  \field{sortinit}{T}
+  \field{title}{The Psychology of Web Performance - how slow response times
+  affect user psychology}
+  \verb{url}
+  \verb http://www.websiteoptimization.com/speed/tweak/psychology-web-performan
+  \verb ce/
+  \endverb
+  \verb{file}
+  \verb :./references/The Psychology of Web Performance - how slow response tim
+  \verb es affect user psychology.html:html
+  \endverb
+  \field{urlday}{01}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Web_Page_Performance_Thesis_-_web_page_response_time_measurement_modeling_and_monitoring_2015-06-01}{online}{}
+  \field{sortinit}{W}
+  \field{title}{Web Page Performance Thesis - web page response time
+  measurement, modeling and monitoring}
+  \verb{url}
+  \verb http://www.websiteoptimization.com/speed/tweak/web-page-performance-the
+  \verb sis/
+  \endverb
+  \verb{file}
+  \verb :./references/Web Page Performance Thesis - web page response time meas
+  \verb urement, modeling and monitoring.html:html
+  \endverb
+  \field{urlday}{01}
+  \field{urlmonth}{06}
   \field{urlyear}{2015}
 \endentry
 
