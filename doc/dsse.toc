@@ -24,8 +24,12 @@
 \contentsline {section}{\numberline {4.3}Nicht funktionale Eigenschaften}{9}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Geschwindigkeit}{10}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Sicherheit}{12}{subsection.4.3.2}
-\contentsline {chapter}{\numberline {5}Phishing}{13}{chapter.5}
-\contentsline {chapter}{\numberline {6}Schlussfolgerung}{14}{chapter.6}
-\contentsline {section}{\numberline {6.1}Pers\IeC {\"o}nliches}{14}{section.6.1}
-\contentsline {chapter}{\nonumberline Quellenverzeichnis}{15}{chapter*.15}
+\contentsline {subsection}{\numberline {4.3.3}Bedienbarkeit}{12}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Weiteres}{13}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Search Engine Optimisation}{13}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Accessibility}{13}{subsection.4.4.2}
+\contentsline {chapter}{\numberline {5}Phishing}{14}{chapter.5}
+\contentsline {chapter}{\numberline {6}Schlussfolgerung}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}Pers\IeC {\"o}nliches}{15}{section.6.1}
+\contentsline {chapter}{\nonumberline Quellenverzeichnis}{16}{chapter*.15}
 \contentsfinish

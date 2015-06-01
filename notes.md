@@ -94,7 +94,7 @@
     - Accessibility
     - Authentication
     - SEO
-    - Restfull / Stateless
+    - Restfull / Stateless :exclamation: :exclamation: :exclamation:
         - Session Management
         - Sockets
 - Software Design
