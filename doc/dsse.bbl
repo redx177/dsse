@@ -106,6 +106,20 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Scrum_process-de_-_Scrum__Wikipedia_2015-06-03}{online}{}
+  \field{sortinit}{S}
+  \field{title}{Scrum process-de - Scrum – Wikipedia}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Scrum#/media/File:Scrum_process-de.svg
+  \endverb
+  \verb{file}
+  \verb :./references/Scrum process-de - Scrum – Wikipedia.html:html
+  \endverb
+  \field{urlday}{03}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{The_Difference_Between_Adaptive_Design_And_Responsive_Design_2015-05-31}{online}{}
   \field{sortinit}{T}
   \field{title}{The Difference Between Adaptive Design And Responsive Design |
@@ -136,6 +150,36 @@
   \verb es affect user psychology.html:html
   \endverb
   \field{urlday}{01}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{TIOBE_Software_Tiobe_Index_2015-06-04}{online}{}
+  \field{sortinit}{T}
+  \field{title}{TIOBE Software: Tiobe Index}
+  \verb{url}
+  \verb http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+  \endverb
+  \verb{file}
+  \verb :./references/TIOBE Software: Tiobe Index.html:html
+  \endverb
+  \field{urlday}{04}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Waterfall_model-de_-_Wasserfallmodell__Wikipedia_2015-06-03}{online}{}
+  \field{sortinit}{W}
+  \field{title}{Waterfall model-de - Wasserfallmodell – Wikipedia}
+  \verb{url}
+  \verb https://de.wikipedia.org/wiki/Wasserfallmodell#/media/File:Waterfall_mo
+  \verb del-de.svg
+  \endverb
+  \verb{file}
+  \verb :./references/Waterfall model-de - Wasserfallmodell – Wikipedia.html:
+  \verb html
+  \endverb
+  \field{urlday}{03}
   \field{urlmonth}{06}
   \field{urlyear}{2015}
 \endentry
