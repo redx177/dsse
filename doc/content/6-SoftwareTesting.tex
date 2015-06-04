@@ -1,0 +1,58 @@
+\chapter{Software Testing}
+Das Testing bei der Webentwicklung ist wie üblich aufgeteilt in die Teilbereiche Unit-, Integration- und Systemtest. Dieses Kapitel nimmt sich den drei Bereichen an und stellt Werkzeuge für das Web vor.
+
+\section{Unit Tests}
+Das Unit Testing nimmt sich die kleinsten Einheit vor, eine Methode. Dabei sollte sicher gestellt sein, dass genau nur diese Grösse überprüft wird und keine Abhängigkeiten.
+
+Frameworks für das Unit Testing gibt es wie Sand am Meer. Bei Java gibt es zum Beispiel JUnit, JUnitEE, TestNG, etc. Für C\# gibt es NUnit, NUnitAsp, MSTest, etc. Für PHP gibt es PHPUnit, lime, SnapTest, etc. Nicht nur die Namen sind ähnlich, sondern auch deren Aufbau. Alle Funktionieren nach dem \textit{Arrange-Act-Assert} Prinzip. Ein Beipsiel aus JUnit:
+
+\begin{lstlisting}
+@Test
+public void testIfFoodIsWarm() {
+	// Arrange
+	Kitchen kitchen = new Kitchen();
+	Kitchen.PrepareFood();
+	
+	// Act
+	Kitchen.CookFood();
+	Food food = Kitchen.getFood();
+	
+	// Assert
+	assertThat(food.Temperature, is(80));
+}
+\end{lstlisting}
+
+Im \textit{Arrange} wird alles vorbereitet. Beim \textit{Act} wird die Aktion durchgeführt und schlussendlich beim \textit{Assert} überprüft ob alles richtig funktioniert hat.
+
+Die Schwierigkeit besteht darin, keine Abhängigkeiten mit zu testen. Im obigen Beispiel wird eine Küche erstellt. Sie hat eine Mikrowelle in welcher das essen aufgewärmt wird. Die Mikrowelle wird jedoch auch getestet.
+
+Bei der Problematik kommen Mock-Frameworks zur Verwendung. Sie kapseln die Funktionalität von Abhängigkeiten weg. Auch hier gibt es wieder für jede Sprache viele Frameworks in frage. Foglend ein Beispiel mit dem Java Mock System mit dem Namen Mockito:
+
+\begin{lstlisting}
+@Test
+public void testIfFoodIsWarm() {
+	// Arrange
+	Microwave microwave = mock(Microwave.class);
+	when(microwave.cookFood()).thenReturn(new Food(80));
+	
+	Kitchen kitchen = new Kitchen(microwave);
+	Kitchen.PrepareFood();
+	
+	// Act
+	Kitchen.CookFood();
+	Food food = Kitchen.getFood();
+	
+	// Assert
+	assertThat(food.Temperature, is(80));
+	verify(microwave).cookFood();
+}
+\end{lstlisting}
+
+Zu beginn wird ein Mock von der Mikrowelle erstellt und definiert, dass wenn die \textit{cookFood()} Methode aufgerufen wird ein warmes Essen zurückkommt. Am Schluss wird überprüft, ob die \textit{cookFood()} Funktion auch wirklich aufgerufen wurde.
+
+Somit wird Funktionalität der Mikrowelle nicht geprüft sondern nur, ob sie verwendet wurde. Für die Mikrowelle sollte es dann eigene Unit Tests geben.
+
+\section{Integrationstests}
+Die zweite Ebene des Testing sind die Integrationstests
+
+\section{Systemtests}
