@@ -99,6 +99,10 @@
         - Sockets
 - Software Design
     - Patterns
+        - MVC
+        - MVVM
+    - Single Page Application
+    - Rich Internet Applications
     - Distributed Systems
         - System Bus
         - CQRS
