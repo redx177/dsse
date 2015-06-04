@@ -111,15 +111,15 @@
         - NodeJS
     - Client Sprachen
         - JS (Frameworks)
-            - Scriptacoulous
-            - AngularJS
-            - TerrificJS
+            - Scriptacoulous:exclamation: :exclamation: :exclamation:
+            - AngularJS:exclamation: :exclamation: :exclamation:
+            - TerrificJS:exclamation: :exclamation: :exclamation:
         - CoffeeScript
-        - Meteor
-        - CSS (Framework)
+        - Meteor:exclamation: :exclamation: :exclamation:
+        - CSS (Framework):exclamation: :exclamation: :exclamation:
             - Less
             - Sass
-    - Databases
+    - Databases:exclamation: :exclamation: :exclamation:
         - MySQL
         - PostgreSQL
         - NoSQL
