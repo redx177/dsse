@@ -53,6 +53,82 @@ Zu beginn wird ein Mock von der Mikrowelle erstellt und definiert, dass wenn die
 Somit wird Funktionalität der Mikrowelle nicht geprüft sondern nur, ob sie verwendet wurde. Für die Mikrowelle sollte es dann eigene Unit Tests geben.
 
 \section{Integrationstests}
-Die zweite Ebene des Testing sind die Integrationstests
+Eine Software besteht aus kleinen Einheiten welche zusammengesetzt eine Komponente ergeben. Diese Komponenten werden wiederum zusammen gepuzzelt zu grösseren Komponenten. Dies geht so weiter bis eine fertige Software entsteht. Um zu überprüfen ob die Komponenten korrekt funktionieren gibt es Integrationstests.
+
+Als Beispiel wird ein Kühlschrank angenommen, welcher die innen Temperatur misst. Er hat eine Schnittstelle mit der über das Internet der Kältezustand abgefragt werden kann. Ein Test könnte folgendermassen aussehen:
+
+
+\begin{lstlisting}
+@Test
+public void testIfTemperatureCanBeQueried {
+	// Arrange
+	HttpClient client = new DefaultHttpClient();
+    HttpGet request = new HttpGet("https://api.home-sweet-home.com/fridge/getTemperature");
+ 
+    // Act
+    HttpResponse response = client.execute(request);
+ 
+    // Assert
+    Fridge fridge = HttpResponse.Get(response, Fridge.class);
+    assertThat( fridge.Temperature, lowerThan(5));
+}
+\end{lstlisting}
+
+Hier wird die Schnittstelle des Kühlschrankes überprüft, welcher jedoch aus einer Aggregation von kleineren Bausteinen besteht. Zum Beispiel dem Temperaturmesser, der Stromzufuhr, etc. All diese Einzelteile müssen funktionieren damit der Test erfolgreich ist. 
+
+Damit die Tests so früh als möglich programmiert werden können müssen auch hier Mocks verwendet werden. Denn vielleicht funktioniert der Baustein für die Stromzufuhr noch nicht. Der Temperaturmesser ist jedoch bereits implementiert. Also muss zuerst noch der Mock für alle unfertigen Komponenten erstellt werden. 
+
+Für das Mocking bei den Integrationstests gibt es mehrere Vorgehensweisen:
+\begin{itemize}
+\item Top-Down
+\item Bottom-Up
+\item Sandwitch Testing
+\item Big Bang
+\end{itemize}
+
+Bei allen Methoden wird zuerst der Integrationstest implementiert. Beim \textit{Top-Down} kommt als nächstes die grösste Komponente, also der Kühlschrank. Alle anderen Teile werden als Mocks bereitgestellt. Die \textit{Bottm-Up} Vorgehensweise beginnt mit dem kleinsten Element. Zum Beispiel dem Temperaturmesser. Dabei muss ein Mock für den Kühlschrank erstellt werden. \textit{Sandwitch Testing} ist ein Mix zwischen den ersten beiden. Es wird mit irgend einer Komponenten begonnen und alle anderen, also die darüber sowie die darunter müssen als Mock bereitgestellt werden. Und schlussendlich gibt es noch die \textit{Big Bang} Vorgehensweise. Dabei wird zum Schluss die gesamte Komponente getestet und es sind keine Mocks nötig. 
+
+Für Neuentwicklungen eigenen sich Top-Down, Bottom-Up und das Sandwitch Testing. Big Bang sollte nur eingesetzt werden für bestehende Software zu testen. Denn es empfiehlt sich die Tests zu beginn zu schreiben. Denn Tests nachträglich zu entwerfen ist stets schwieriger als wenn man es vor der Entwicklung tut\footcite{Madeyski10cpdf_2015-06-07}.
 
 \section{Systemtests}
+Der letzte Schritt beim Testen ist der Systemtest. Bei den vorherigen Tests stand das technische im Zentrum. Der Systemtest sollte stets aus der Sicht des Benutzers entworfen werden.
+
+In der Webentwicklung werden Systemtests über Hilfsprogramme realisiert, welche einen Browser starten und wie ein Benutzer über die Seite navigieren. Die Korrektheit wird wiederum über Asserts validiert.
+
+Das bekannteste Programm ist Selenium\footcite{Selenium_-_Web_Browser_Automation_2015-06-07}\footcite{The_Art_of_Unit_Testing}. Als Beispiel wird eine Suche getestet: 
+
+\begin{lstlisting}
+@Test
+public class GoogleSearch {
+    static WebDriver driver;
+    static Wait<WebDriver> wait;
+ 
+    public static void main(String[] args) {
+    }
+ 
+    private static boolean testIfMoreThan3ElemntsFoundWithFirefoxBrowser() {
+        // Arrange
+	        WebDriver driver = new FirefoxDriver();
+        
+        // Act
+        	// Navigate to site.
+        	driver.get("http://www.kitchen.com/");
+        	        
+	        // Type search query.
+	        driver.findElement(By.name("searchword")).sendKeys("fridge");
+	 
+	        // Click search.
+	        driver.findElement(By.name("submit")).click();
+	 
+	        // Wait for search to complete.
+	        Wait.for(seconds(5));
+ 
+        // Assert
+        	assertThat( driver.findElements(By.tagName("list-item")), greaterThan(3));
+    }
+}
+\end{lstlisting}
+
+Als erstes wird ein Firefox Browser geöffnet. Danach die Adresse \textit{www.kitchen.com} eingegeben, das Suchwort \textit{fridge} eingetippt und auf den Absendebutton gedrückt. Nachdem fünf Sekunden gewartet wurde wird überprüft ob mehr als drei Suchresultate gefunden wurde.
+
+Dieser Test überprüft die Software sowie ob die Interaktion mit dem Browser korrekt funktioniert. Er ist aus der Sicht des Benutzers geschrieben, denn genau so würde auch er sich bei der Suche verhalten.

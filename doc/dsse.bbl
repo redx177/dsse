@@ -33,6 +33,24 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{AjaxWorld_Talk_Building_Rich_Internet_Applications_2015-06-07}{online}{}
+  \field{sortinit}{A}
+  \field{title}{AjaxWorld Talk: Building Rich Internet Applications Using
+  Microsoft Silverlight 2 - Brad Abrams - Site Home - MSDN Blogs}
+  \verb{url}
+  \verb http://blogs.msdn.com/b/brada/archive/2008/10/20/ajaxworld-talk-buildin
+  \verb g-rich-internet-applications-using-microsoft-silverlight-2.aspx
+  \endverb
+  \verb{file}
+  \verb :./references/AjaxWorld Talk: Building Rich Internet Applications Using
+  \verb  Microsoft Silverlight 2 - Brad Abrams - Site Home - MSDN Blogs.html:ht
+  \verb ml
+  \endverb
+  \field{urlday}{07}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{IEEE_Computer_Society_2015-05-30}{online}{}
   \field{sortinit}{I}
   \field{title}{index • IEEE Computer Society}
@@ -58,6 +76,55 @@
   \endverb
   \field{urlday}{30}
   \field{urlmonth}{05}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Madeyski10cpdf_2015-06-07}{online}{}
+  \field{sortinit}{M}
+  \field{title}{Madeyski10c.pdf}
+  \verb{url}
+  \verb http://madeyski.e-informatyka.pl/download/Madeyski10c.pdf
+  \endverb
+  \verb{file}
+  \verb :./references/Madeyski10c.pdf.html:html
+  \endverb
+  \field{urlday}{07}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{The_Art_of_Unit_Testing}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Osherove}{O.}%
+     {Roy}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {mitp-Verlag}%
+  }
+  \strng{namehash}{OR1}
+  \strng{fullhash}{OR1}
+  \field{sortinit}{O}
+  \field{booktitle}{The Art of Unit Testing}
+  \field{title}{The Art of Unit Testing}
+  \field{year}{2010}
+\endentry
+
+\entry{Prototype_JavaScript_framework_a_foundation_for_ambitious_web_applications_2015-06-07}{online}{}
+  \field{sortinit}{P}
+  \field{title}{Prototype JavaScript framework: a foundation for ambitious web
+  applications}
+  \verb{url}
+  \verb http://prototypejs.org/
+  \endverb
+  \verb{file}
+  \verb :./references/Prototype JavaScript framework: a foundation for ambitiou
+  \verb s web applications.html:html
+  \endverb
+  \field{urlday}{07}
+  \field{urlmonth}{06}
   \field{urlyear}{2015}
 \endentry
 
@@ -106,6 +173,21 @@
   \field{urlyear}{2015}
 \endentry
 
+\entry{Rich_Internet_Application_Market_Share_Global_Usage_2015-06-07}{online}{}
+  \field{sortinit}{R}
+  \field{title}{Rich Internet Application (RIA) Market Share / Global Usage}
+  \verb{url}
+  \verb http://www.statowl.com/custom_ria_market_penetration.php
+  \endverb
+  \verb{file}
+  \verb :./references/Rich Internet Application (RIA) Market Share / Global Usa
+  \verb ge.html:html
+  \endverb
+  \field{urlday}{07}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
 \entry{Scrum_process-de_-_Scrum__Wikipedia_2015-06-03}{online}{}
   \field{sortinit}{S}
   \field{title}{Scrum process-de - Scrum – Wikipedia}
@@ -116,6 +198,20 @@
   \verb :./references/Scrum process-de - Scrum – Wikipedia.html:html
   \endverb
   \field{urlday}{03}
+  \field{urlmonth}{06}
+  \field{urlyear}{2015}
+\endentry
+
+\entry{Selenium_-_Web_Browser_Automation_2015-06-07}{online}{}
+  \field{sortinit}{S}
+  \field{title}{Selenium - Web Browser Automation}
+  \verb{url}
+  \verb http://docs.seleniumhq.org/
+  \endverb
+  \verb{file}
+  \verb :./references/Selenium - Web Browser Automation.html:html
+  \endverb
+  \field{urlday}{07}
   \field{urlmonth}{06}
   \field{urlyear}{2015}
 \endentry
