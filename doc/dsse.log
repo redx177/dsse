@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  7 JUN 2015 21:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  11 JUN 2015 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4220,6 +4220,11 @@ text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 12.59247pt
 number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  16.42499pt
+text indent by \l@... (toc, 1):  25.18501pt
+number indent by parent (toc, 1):  12.59247pt
+text indent calculated (toc, 1): 19.46661pt
+number indent calculated (toc, 1): 12.59247pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  16.42499pt
 number indent by parent (toc, 0):  0.0pt
@@ -4499,7 +4504,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-iso-8859-1.def
 File: se-iso-8859-1.def 2011/12/02 v1.10 stringenc: ISO-8859-1
 )
-<images/aufbau-internet.png, id=244, 1129.21875pt x 342.27875pt>
+<images/aufbau-internet.png, id=246, 1129.21875pt x 342.27875pt>
 File: images/aufbau-internet.png Graphic file (type png)
 
 <use images/aufbau-internet.png>
@@ -4591,7 +4596,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 26.
-<images/rwd-vs-awd.png, id=281, 724.7075pt x 245.91875pt>
+<images/rwd-vs-awd.png, id=283, 724.7075pt x 245.91875pt>
 File: images/rwd-vs-awd.png Graphic file (type png)
 
 <use images/rwd-vs-awd.png>
@@ -4624,7 +4629,7 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout3 = `dsse.mw'.
 
 
-<images/rwd.jpg, id=291, 199.947pt x 146.949pt>
+<images/rwd.jpg, id=293, 199.947pt x 146.949pt>
 File: images/rwd.jpg Graphic file (type jpg)
  <use images/rwd.jpg>
 Package pdftex.def Info: images/rwd.jpg used on input line 42.
@@ -4732,26 +4737,26 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 117.
 
-<images/spinner1.jpeg, id=335, 75.28125pt x 75.28125pt>
+<images/spinner1.jpeg, id=337, 75.28125pt x 75.28125pt>
 File: images/spinner1.jpeg Graphic file (type jpg)
 
 <use images/spinner1.jpeg>
 Package pdftex.def Info: images/spinner1.jpeg used on input line 129.
 (pdftex.def)             Requested size: 25.60735pt x 25.60791pt.
- <images/spinner2.png, id=336, 401.5pt x 401.5pt>
+ <images/spinner2.png, id=338, 401.5pt x 401.5pt>
 File: images/spinner2.png Graphic file (type png)
 
 <use images/spinner2.png>
 Package pdftex.def Info: images/spinner2.png used on input line 135.
 (pdftex.def)             Requested size: 25.60735pt x 25.60217pt.
- <images/spinner3.png, id=337, 513.92pt x 513.92pt>
+ <images/spinner3.png, id=339, 513.92pt x 513.92pt>
 File: images/spinner3.png Graphic file (type png)
 
 <use images/spinner3.png>
 Package pdftex.def Info: images/spinner3.png used on input line 141.
 (pdftex.def)             Requested size: 25.60735pt x 25.6034pt.
 
-<images/lines-of-code-response-time.png, id=340, 570.13pt x 348.30125pt>
+<images/lines-of-code-response-time.png, id=342, 570.13pt x 348.30125pt>
 File: images/lines-of-code-response-time.png Graphic file (type png)
 
 <use images/lines-of-code-response-time.png>
@@ -4772,7 +4777,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
  [10 <./images/spinner1.jpeg> <./images/spinner2.png> <./images/spinner3.png>] 
 (./dsse.mw)
-<images/sprite_sheet.png, id=356, 573.14125pt x 247.92625pt>
+<images/sprite_sheet.png, id=358, 573.14125pt x 247.92625pt>
 File: images/sprite_sheet.png Graphic file (type png)
 
 <use images/sprite_sheet.png>
@@ -4939,7 +4944,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 40.
-<images/rich_internet_application.png, id=416, 642.4pt x 466.74374pt>
+<images/rich_internet_application.png, id=418, 642.4pt x 466.74374pt>
 File: images/rich_internet_application.png Graphic file (type png)
 
 <use images/rich_internet_application.png>
@@ -5032,7 +5037,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 10.
-<images/wasserfall.png, id=448, 642.4pt x 481.8pt>
+<images/wasserfall.png, id=450, 642.4pt x 481.8pt>
 File: images/wasserfall.png Graphic file (type png)
  <use images/wasserfall.png>
 Package pdftex.def Info: images/wasserfall.png used on input line 15.
@@ -5068,7 +5073,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 20.
 
-<images/scrum.png, id=454, 803.0pt x 401.5pt>
+<images/scrum.png, id=456, 803.0pt x 401.5pt>
 File: images/scrum.png Graphic file (type png)
  <use images/scrum.png>
 Package pdftex.def Info: images/scrum.png used on input line 26.
@@ -5097,7 +5102,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 33.
 
-<images/kanban.png, id=464, 447.6725pt x 226.8475pt>
+<images/kanban.png, id=466, 447.6725pt x 226.8475pt>
 File: images/kanban.png Graphic file (type png)
  <use images/kanban.png>
 Package pdftex.def Info: images/kanban.png used on input line 38.
@@ -6105,10 +6110,10 @@ lic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share
 lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on dsse.pdf (39 pages, 1285948 bytes).
+Output written on dsse.pdf (39 pages, 1286925 bytes).
 PDF statistics:
- 997 PDF objects out of 1000 (max. 8388607)
- 894 compressed objects within 9 object streams
+ 998 PDF objects out of 1000 (max. 8388607)
+ 895 compressed objects within 9 object streams
  283 named destinations out of 1000 (max. 500000)
  62985 words of extra memory for PDF output out of 74296 (max. 10000000)
 
