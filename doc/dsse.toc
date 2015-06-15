@@ -46,6 +46,6 @@
 \contentsline {section}{\numberline {8.1}Service Layer Agreements}{27}{section.8.1}
 \contentsline {section}{\numberline {8.2}Service Desk}{27}{section.8.2}
 \contentsline {chapter}{\numberline {9}Schlusswort}{29}{chapter.9}
-\contentsline {section}{\numberline {9.1}Reflextion}{29}{section.9.1}
+\contentsline {section}{\numberline {9.1}Reflexion}{29}{section.9.1}
 \contentsline {chapter}{\nonumberline Quellenverzeichnis}{30}{chapter*.19}
 \contentsfinish

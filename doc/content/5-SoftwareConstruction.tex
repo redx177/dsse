@@ -2,13 +2,13 @@
 
 Bei der Entwicklung von Software gibt es diverse Prozesse. Weit verbreitet sind das Wasserfall-, Scrum- und Kanban Modell. Obwohl diese nicht spezifisch für die Domäne der Webentwicklung sind, sollen sie kurz beschrieben werden.
 
-Danach wird vorgestellt, wie \Gls{glos:htmlLabel} Dokumente korrekt erstellt werden und zum Schluss welche Programmiersprachen in der Webentwicklung eingesetzt werden.
+Danach wird vorgestellt, wie \Gls{glos:htmlLabel} Dokumente korrekt erstellt werden und zum Schluss, welche Programmiersprachen in der Webentwicklung eingesetzt werden.
 
 \section{Vorgehensmodelle}
 Für \gls{kmuLabel} Unternehmen haben sich in der Webentwicklung drei Vorhersagemodelle etabliert. Das Wasserfall, Scrum und Kanban Modell. 
 
 \subsection{Wasserfallmodell}
-Ersteres ist ein strikt lineares (nicht iteratives) Model in welchem eine Phase nach der anderen Abgearbeitet wird. Das Ergebnis der vorherigen Phase fliesst dabei in die nächste mit ein. Das vorgehen ist sehr starr, da alles was zu beginn definiert wurde während des Projektes nicht mehr angepasst werden kann.
+Ersteres ist ein strikt lineares (nicht iteratives) Model in welchem eine Phase nach der anderen abgearbeitet wird. Das Ergebnis der vorherigen Phase fliesst dabei in die Nächste mit ein. Das Vorgehen ist sehr starr, da alles, was zu Beginn definiert wurde, während des Projektes nicht mehr angepasst werden kann.
 
 \begin{figure}[H]
   \centering
@@ -40,7 +40,7 @@ Kanban hat das primäre Ziel, ein Arbeitspaket so rasch fertigzustellen wie mög
   \label{fig:softwareconstruction:vorgehensmodelle:kanban}
 \end{figure}
 
-Jede Spalte hat eine Zahl welche definiert, wie viele Arbeitspakete auf einmal in einer Spalte liegen dürfen. Es wird gemessen, wie lange die Durchlaufzeit pro Paket ist und dann wird versucht, diese Zeit durch Prozessverbesserungen zu minimieren. 
+Jede Spalte hat eine Zahl, welche definiert, wie viele Arbeitspakete auf einmal in einer Spalte liegen dürfen. Es wird gemessen, wie lange die Durchlaufzeit pro Paket ist und dann wird versucht, diese Zeit durch Prozessverbesserungen zu minimieren. 
 
 
 \section{HTML}
@@ -63,7 +63,7 @@ Content of the document......
 </html> 
 \end{lstlisting}
 
-Aufgebaut ist das Dokument über Tags, welche zwischen den < und > Zeichen definiert sein. Der \textit{DOCTYPE} gibt die \Gls{glos:htmlLabel} Version an. Im \textit{head} werden Kopfdaten definiert. Zum Beispiel der Titel der Seite oder die Schlüsselwörter, welche von den Suchmaschinen gefunden werden sollen. Und schlussendlich wird im \textit{body} der Inhalt der Seite angegeben.
+Aufgebaut ist das Dokument über Tags, welche zwischen den < und > Zeichen definiert sein. Der \textit{DOCTYPE} gibt die \Gls{glos:htmlLabel} Version an. Im \textit{head} werden Kopfdaten definiert. Zum Beispiel der Titel der Seite oder die Schlüsselwörter, welche von den Suchmaschinen gefunden werden sollen. Und Schlussendlich wird im \textit{body} der Inhalt der Seite angegeben.
 
 Im \textit{body} können weitere Tags definiert werden. Zum Beispiel können Tabellen erzeugt werden. Der folgende Code
 
@@ -100,12 +100,12 @@ wird folgendermassen definiert:
 
 Eingeleitet wird die Tabelle mittels \textit{<table>} begonnen und mit \textit{</table>} wieder beendet. Eine Reihe wird mit \textit{<tr>} definiert und eine Zelle mit \textit{<td>}
 
-Über die Tabellenstruktur kann der gesamte Aufbau einer Seite gesteuert werden. Für eine professionelle Entwicklung und eine gute Suchmaschinen Unterstützung ist dies jedoch nicht empfehlenswert, denn nicht jede Seite ist automatisch eine Tabelle. Möchte man einen Textabsatz definieren, sollte man zum Beispiel den <p> Tag (paragraph) verwenden. Dabei spricht man von semantischen \Gls{glos:htmlLabel}. Suchmaschinen wissen dann, dass es sich dabei um einen Textabsatz handelt und nicht um eine Tabelle.
+Über die Tabellenstruktur kann der gesamte Aufbau einer Seite gesteuert werden. Für eine professionelle Entwicklung und eine gute Suchmaschinen-Unterstützung ist dies jedoch nicht empfehlenswert, denn nicht jede Seite ist automatisch eine Tabelle. Möchte man einen Textabsatz definieren, sollte man zum Beispiel den <p> Tag (paragraph) verwenden. Dabei spricht man von semantischen \Gls{glos:htmlLabel}. Suchmaschinen wissen dann, dass es sich dabei um einen Textabsatz handelt und nicht um eine Tabelle.
 
-Die der Schwierigkeitsgrad von \Gls{glos:htmlLabel} ist sehr niedrig. Jedoch ist das umsetzen von einer semantisch korrekten Seite um Faktoren schwerer zu bewerkstelligen.
+Der Schwierigkeitsgrad von \Gls{glos:htmlLabel} ist sehr niedrig. Jedoch ist die Umsetzung einer semantisch korrekten Seite um Faktoren schwerer zu bewerkstelligen.
 
 \section{Programmiersprachen}
-Da das Web auf einer  Client-/Server-Architektur aufbaut gibt es Programmiersprachen für beide Seiten. Eine Webseite besteht Grundsätzlich aus \Gls{glos:htmlLabel} Code, welcher von weiteren Clienten-Seitigen Programmiersprachen manipuliert werden kann. Die Server-Seitigen Sprachen haben hingegen das primäre Ziel, \Gls{glos:htmlLabel} oder Client-Seitigen Code zu generieren.
+Da das Web auf einer  Client-/Server-Architektur aufbaut, gibt es Programmiersprachen für beide Seiten. Eine Webseite besteht Grundsätzlich aus \Gls{glos:htmlLabel} Code, welche von weiteren Client-seitigen Programmiersprachen manipuliert werden kann. Die Server-seitigen Sprachen haben hingegen das primäre Ziel, \Gls{glos:htmlLabel} oder Client-Seitigen Code zu generieren.
 
 Es gibt unzählige Programmiersprachen. Folgend eine Liste der populärsten Server-Programmiersprachen gemäss dem TIOBE Index\footcite{TIOBE_Software_Tiobe_Index_2015-06-04}.
 
@@ -117,18 +117,17 @@ Es gibt unzählige Programmiersprachen. Folgend eine Liste der populärsten Serv
 \item Phyton
 \end{itemize}
 
-Die einzige verbreitete Programmiersprache für die Benutzung im Browser is JavaScript. Es gibt alternativen mit ActionScript, mit welchem Flash-Dateien umgesetzt werden, oder Java um Java Applets zu programmieren. Die beiden Varianten verlieren jedoch immer mehr an Bedeutung, wie dem TIOBE Index entnommen werden kann.
+Die einzige verbreitete Programmiersprache für die Benutzung im Browser is JavaScript. Es gibt Alternativen wie ActionScript, mit welchem Flash-Dateien umgesetzt werden, oder Java um Java Applets zu programmieren. Die beiden Varianten verlieren jedoch immer mehr an Bedeutung, wie dem TIOBE Index entnommen werden kann.
 
 Es gibt Sprachen, welche in JavaScript transcodiert werden. Zum Beispiel \textit{Coffee Script} oder \textit{Dart}. Beim Transcodieren wandelt der Compiler die Sprache dann in valides JavaScript um.
-t
-Die Frage, welche Programmiersprache man einsetzen soll ist sehr schwierig zu beantworten da die Auswahl sehr gross ist. Folgende Punkte sollten dabei beachtet werden:
+Die Frage, welche Programmiersprache man einsetzen soll, ist sehr schwierig zu beantworten, da die Auswahl sehr gross ist. Folgende Punkte sollten dabei beachtet werden:
 \begin{itemize}
 \item Grösse und Komplexität der Software
 \item Problemdomäne
 \item Knowhow
 \end{itemize}
-Je nach Grösse und Komplexität spielt auch die Geschwindigkeit eine Rolle. Es gibt Sprachen die in diesem Bereich Vorteile besitzen wie C++ die sehr schnell sind.
+Je nach Grösse und Komplexität spielt auch die Geschwindigkeit eine Rolle. Es gibt Sprachen, die in diesem Bereich Vorteile besitzen, wie C++, die sehr schnell sind.
 
-Es ist möglich, alles in jeder Sprache umzusetzen. Nur eignen sich spezifische Sprachen für gewisse Arbeiten besser als andere. Zum Beispiel können mathematische Probleme mit funktionale Programmiersprachen wie Haskell oder F\#, einfacher und verständlicher gelöst werden. Deshalb sollte stets die passende Sprache ausgewählt werden.
+Es ist möglich, alles in jeder Sprache umzusetzen. Nur eignen sich spezifische Sprachen für gewisse Arbeiten besser als andere. Zum Beispiel können mathematische Probleme mit funktionale Programmiersprachen wie Haskell oder F\# einfacher und verständlicher gelöst werden. Deshalb sollte stets die passende Sprache ausgewählt werden.
 
 Auch wenn die Problemdomäne wichtig ist, so sollte stets auch das Wissen der Programmierer berücksichtigt werden. Denn wer sich in einer Programmiersprache zuhause fühlt, der leistet auch bessere Arbeit.

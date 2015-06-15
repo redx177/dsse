@@ -2,7 +2,7 @@
 Das Testing bei der Webentwicklung ist wie üblich aufgeteilt in die Teilbereiche Unit-, Integration- und Systemtest. Dieses Kapitel nimmt sich den drei Bereichen an und stellt Werkzeuge für das Web vor.
 
 \section{Unit Tests}
-Das Unit Testing nimmt sich die kleinsten Einheit vor, eine Methode. Dabei sollte sicher gestellt sein, dass genau nur diese Grösse überprüft wird und keine Abhängigkeiten.
+Das Unit Testing ist die unterste Ebene beim Software Testing. Deshalb werden die kleinsten Einheiten, die Methoden, überprüft. Dabei sollte sicher gestellt sein, dass genau nur diese Grösse getestet wird und keine Abhängigkeiten.
 
 Frameworks für das Unit Testing gibt es wie Sand am Meer. Bei Java gibt es zum Beispiel JUnit, JUnitEE, TestNG, etc. Für C\# gibt es NUnit, NUnitAsp, MSTest, etc. Für PHP gibt es PHPUnit, lime, SnapTest, etc. Nicht nur die Namen sind ähnlich, sondern auch deren Aufbau. Alle Funktionieren nach dem \textit{Arrange-Act-Assert} Prinzip. Ein Beipsiel aus JUnit:
 
@@ -22,11 +22,11 @@ public void testIfFoodIsWarm() {
 }
 \end{lstlisting}
 
-Im \textit{Arrange} wird alles vorbereitet. Beim \textit{Act} wird die Aktion durchgeführt und schlussendlich beim \textit{Assert} überprüft ob alles richtig funktioniert hat.
+Im \textit{Arrange} wird alles vorbereitet. Beim \textit{Act} wird die Aktion durchgeführt und schlussendlich beim \textit{Assert} überprüft, ob alles richtig funktioniert hat.
 
-Die Schwierigkeit besteht darin, keine Abhängigkeiten mit zu testen. Im obigen Beispiel wird eine Küche erstellt. Sie hat eine Mikrowelle in welcher das essen aufgewärmt wird. Die Mikrowelle wird jedoch auch getestet.
+Die Schwierigkeit besteht darin, keine Abhängigkeiten mit zu testen. Im obigen Beispiel wird eine Küche erstellt. Sie hat eine Mikrowelle in welcher das Essen aufgewärmt wird. Die Mikrowelle wird jedoch auch getestet.
 
-Bei der Problematik kommen Mock-Frameworks zur Verwendung. Sie kapseln die Funktionalität von Abhängigkeiten weg. Auch hier gibt es wieder für jede Sprache viele Frameworks in frage. Foglend ein Beispiel mit dem Java Mock System mit dem Namen Mockito:
+Bei der Problematik kommen Mock-Frameworks zur Verwendung. Sie kapseln die Funktionalität von Abhängigkeiten weg. Auch hier gibt es für jede Sprache viele Frameworks, welche in frage kommen. Folgend ein Beispiel mit Mockito, einem Mock Framework für Java:
 
 \begin{lstlisting}
 @Test
@@ -48,14 +48,14 @@ public void testIfFoodIsWarm() {
 }
 \end{lstlisting}
 
-Zu beginn wird ein Mock von der Mikrowelle erstellt und definiert, dass wenn die \textit{cookFood()} Methode aufgerufen wird ein warmes Essen zurückkommt. Am Schluss wird überprüft, ob die \textit{cookFood()} Funktion auch wirklich aufgerufen wurde.
+Zu Beginn wird ein Mock von der Mikrowelle erstellt und definiert, dass wenn die \textit{cookFood()} Methode aufgerufen wird ein warmes Essen zurückkommt. Am Schluss wird überprüft, ob die \textit{cookFood()} Funktion auch wirklich aufgerufen wurde.
 
-Somit wird Funktionalität der Mikrowelle nicht geprüft sondern nur, ob sie verwendet wurde. Für die Mikrowelle sollte es dann eigene Unit Tests geben.
+Somit wird Funktionalität der Mikrowelle nicht geprüft, sondern nur, ob sie verwendet wurde. Für die Mikrowelle sollte es dann eigene Unit Tests geben.
 
 \section{Integrationstests}
-Eine Software besteht aus kleinen Einheiten welche zusammengesetzt eine Komponente ergeben. Diese Komponenten werden wiederum zusammen gepuzzelt zu grösseren Komponenten. Dies geht so weiter bis eine fertige Software entsteht. Um zu überprüfen ob die Komponenten korrekt funktionieren gibt es Integrationstests.
+Eine Software besteht aus kleinen Einheiten, welche zusammengesetzt eine Komponente ergeben. Diese Komponenten werden wiederum zu grösseren Komponenten zusammengepuzzelt. Dies geht so weiter bis eine fertige Software entsteht. Um zu überprüfen, ob die Komponenten korrekt funktionieren, gibt es Integrationstests.
 
-Als Beispiel wird ein Kühlschrank angenommen, welcher die innen Temperatur misst. Er hat eine Schnittstelle mit der über das Internet der Kältezustand abgefragt werden kann. Ein Test könnte folgendermassen aussehen:
+Als Beispiel wird ein Kühlschrank angenommen, welcher die innere Temperatur misst. Er hat eine Schnittstelle mit der über das Internet der Kältezustand abgefragt werden kann. Ein Test könnte folgendermassen aussehen:
 
 
 \begin{lstlisting}
@@ -76,19 +76,19 @@ public void testIfTemperatureCanBeQueried {
 
 Hier wird die Schnittstelle des Kühlschrankes überprüft, welcher jedoch aus einer Aggregation von kleineren Bausteinen besteht. Zum Beispiel dem Temperaturmesser, der Stromzufuhr, etc. All diese Einzelteile müssen funktionieren damit der Test erfolgreich ist. 
 
-Damit die Tests so früh als möglich programmiert werden können müssen auch hier Mocks verwendet werden. Denn vielleicht funktioniert der Baustein für die Stromzufuhr noch nicht. Der Temperaturmesser ist jedoch bereits implementiert. Also muss zuerst noch der Mock für alle unfertigen Komponenten erstellt werden. 
+Damit die Tests so früh als möglich programmiert werden können, müssen auch hier Mocks verwendet werden. Denn vielleicht funktioniert der Baustein für die Stromzufuhr noch nicht. Der Temperaturmesser ist jedoch bereits implementiert. Also muss zuerst noch der Mock für alle unfertigen Komponenten erstellt werden. 
 
 Für das Mocking bei den Integrationstests gibt es mehrere Vorgehensweisen:
 \begin{itemize}
 \item Top-Down
 \item Bottom-Up
-\item Sandwitch Testing
+\item Sandwich Testing
 \item Big Bang
 \end{itemize}
 
-Bei allen Methoden wird zuerst der Integrationstest implementiert. Beim \textit{Top-Down} kommt als nächstes die grösste Komponente, also der Kühlschrank. Alle anderen Teile werden als Mocks bereitgestellt. Die \textit{Bottm-Up} Vorgehensweise beginnt mit dem kleinsten Element. Zum Beispiel dem Temperaturmesser. Dabei muss ein Mock für den Kühlschrank erstellt werden. \textit{Sandwitch Testing} ist ein Mix zwischen den ersten beiden. Es wird mit irgend einer Komponenten begonnen und alle anderen, also die darüber sowie die darunter müssen als Mock bereitgestellt werden. Und schlussendlich gibt es noch die \textit{Big Bang} Vorgehensweise. Dabei wird zum Schluss die gesamte Komponente getestet und es sind keine Mocks nötig. 
+Bei allen Methoden wird zuerst der Integrationstest implementiert. Beim \textit{Top-Down} kommt als nächstes die grösste Komponente, also der Kühlschrank. Alle anderen Teile werden als Mocks bereitgestellt. Die \textit{Bottm-Up} Vorgehensweise beginnt mit dem kleinsten Element. Zum Beispiel dem Temperaturmesser. Dabei muss ein Mock für den Kühlschrank erstellt werden. \textit{Sandwich Testing} ist ein Mix zwischen den ersten beiden. Es wird mit einer beliebigen Komponenten begonnen und alle anderen, also die darüber sowie die darunter müssen als Mock bereitgestellt werden. Und schlussendlich gibt es noch die \textit{Big Bang} Vorgehensweise. Dabei wird zum Schluss die gesamte Komponente getestet und es sind keine Mocks nötig. 
 
-Für Neuentwicklungen eigenen sich Top-Down, Bottom-Up und das Sandwitch Testing. Big Bang sollte nur eingesetzt werden für bestehende Software zu testen. Denn es empfiehlt sich die Tests zu beginn zu schreiben. Denn Tests nachträglich zu entwerfen ist stets schwieriger als wenn man es vor der Entwicklung tut\footcite{Madeyski10cpdf_2015-06-07}.
+Für Neuentwicklungen eigenen sich Top-Down, Bottom-Up und das Sandwich Testing. Big Bang sollte nur eingesetzt werden, um bestehende Software zu testen. Denn es empfiehlt sich die Tests zu Beginn zu schreiben. Denn Tests nachträglich zu entwerfen ist stets schwieriger als wenn man es vor der Entwicklung tut\footcite{Madeyski10cpdf_2015-06-07}.
 
 \section{Systemtests}
 Der letzte Schritt beim Testen ist der Systemtest. Bei den vorherigen Tests stand das technische im Zentrum. Der Systemtest sollte stets aus der Sicht des Benutzers entworfen werden.
@@ -129,6 +129,6 @@ public class GoogleSearch {
 }
 \end{lstlisting}
 
-Als erstes wird ein Firefox Browser geöffnet. Danach die Adresse \textit{www.kitchen.com} eingegeben, das Suchwort \textit{fridge} eingetippt und auf den Absendebutton gedrückt. Nachdem fünf Sekunden gewartet wurde wird überprüft ob mehr als drei Suchresultate gefunden wurde.
+Als Erstes wird ein Firefox Browser geöffnet. Danach die Adresse \textit{www.kitchen.com} eingegeben, das Suchwort \textit{fridge} eingetippt und auf den Absendebutton gedrückt. Nachdem fünf Sekunden gewartet wurde, wird überprüft, ob mehr als drei Suchresultate gefunden wurden.
 
-Dieser Test überprüft die Software sowie ob die Interaktion mit dem Browser korrekt funktioniert. Er ist aus der Sicht des Benutzers geschrieben, denn genau so würde auch er sich bei der Suche verhalten.
+Dieser Test überprüft die Software, sowie ob die Interaktion mit dem Browser korrekt funktioniert. Er ist aus der Sicht des Benutzers geschrieben, denn genau so würde auch er sich bei der Suche verhalten.

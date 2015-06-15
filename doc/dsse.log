@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  11 JUN 2015 20:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.19)  15 JUN 2015 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5183,13 +5183,13 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 4.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 30.
 \openout3 = `dsse.mw'.
 
 [23] (./dsse.mw)
@@ -5201,15 +5201,15 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 55.
-Package cleveref Info: loaded `ngerman' language definitions on input line 78.
+Package cleveref Info: loaded `ngerman' language definitions on input line 73.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 73.
 \openout3 = `dsse.mw'.
 
  [24] (./dsse.mw)
@@ -5217,16 +5217,16 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 93.
-Package cleveref Info: loaded `ngerman' language definitions on input line 106.
+Package cleveref Info: loaded `ngerman' language definitions on input line 102.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 102.
 \openout3 = `dsse.mw'.
 
  [25] (./dsse.mw))
@@ -5275,8 +5275,6 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 
-
-\openout3 = `dsse.mw'.
 
 \openout3 = `dsse.mw'.
 
@@ -6090,13 +6088,13 @@ Package logreq Info: Writing requests to 'dsse.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62494 strings out of 493304
- 1288335 string characters out of 6139870
- 1829278 words of memory out of 5000000
- 63681 multiletter control sequences out of 15000+600000
- 159351 words of font info for 243 fonts, out of 8000000 for 9000
+ 62497 strings out of 493304
+ 1288350 string characters out of 6139870
+ 1834278 words of memory out of 5000000
+ 63680 multiletter control sequences out of 15000+600000
+ 159517 words of font info for 245 fonts, out of 8000000 for 9000
  963 hyphenation exceptions out of 8191
- 65i,13n,101p,10439b,3397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,13n,101p,10439b,3409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm
@@ -6110,10 +6108,10 @@ lic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share
 lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on dsse.pdf (39 pages, 1286925 bytes).
+Output written on dsse.pdf (39 pages, 1286792 bytes).
 PDF statistics:
- 998 PDF objects out of 1000 (max. 8388607)
- 895 compressed objects within 9 object streams
+ 997 PDF objects out of 1000 (max. 8388607)
+ 894 compressed objects within 9 object streams
  283 named destinations out of 1000 (max. 500000)
  62985 words of extra memory for PDF output out of 74296 (max. 10000000)
 
